@@ -16,9 +16,6 @@ class Guest(Thread):
         super().__init__()
         self.name = name
 
-    # def __str__(self):
-    #     return self.name
-
     def run(self):
         sleep(randint(3, 10))
 
